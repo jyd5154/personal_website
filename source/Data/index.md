@@ -1,3 +1,6 @@
+---
+title: Code
+---
 ### [SAS Code - Income Shifting Measure (Klassen & Laplante 2012 JAR)](https://www.dropbox.com/scl/fi/qb0cocq8emmydg6echp0p/Income-Shifting-Measure.sas?rlkey=n12v9m7u6nntu6c14tm8y2bv2&st=6s74oleg&dl=1)
 
 - **Description** 
@@ -12,3 +15,9 @@ GVKEY CIK FIC SIC Datadate Fyear AvgFTR(Tax Incentive) AvgROS(Average Worldwide 
     - Remove utilities and financial institutions.
     - Constrain fiscal years to 1997 - 2017 (i.e., pre-TCJA).
     - Include firm-level controls in regressions.
+
+---
+Data
+---
+
+Forthcoming
