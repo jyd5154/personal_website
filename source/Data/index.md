@@ -7,4 +7,3 @@ title: Code and Data
 - **Name** Me
 - **Description** Some Description
 - **Other** Misc
-</div>
