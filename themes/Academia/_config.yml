@@ -1,6 +1,7 @@
 favicon: /img/favicon.png
 # Change to your profile picture
 avatar: /img/avatar.jpg
+background: /img/background.png
 # if author sets in hexo_config, this string doesn't work
 author: 'Zero'
 author_bio: 'Accounting Teacher and Researcher'
