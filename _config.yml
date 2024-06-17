@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Zero Deng
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Zero Deng
 language: en
-timezone: ''
+timezone: 'us'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
