@@ -33,7 +33,7 @@ title: My Projects
 
 <!-- -------------- Style -------------- -->
 <style>
-    .card {
+.card {
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
