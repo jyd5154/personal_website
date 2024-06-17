@@ -2,8 +2,6 @@
 title: My Projects
 ---
 
-<link href="./css/data.css" rel="stylesheet"></link>
-
 <div class="card">
 
 ## [Data1](https://google.com)
@@ -21,6 +19,13 @@ title: My Projects
 - **Description** Some Description
 - **Other** Misc
 </div>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
 
 <div class="card">
 
