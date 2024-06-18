@@ -1,6 +1,7 @@
 ---
 title: Publications
 ---
+![](./img/publication.png)
 
 Deng, J., Rane, S. G. (2024). Products, Services, and Tax-Motivated Income Shifting. National Tax Journal, 77(1). https://doi.org/10.1086/727885
 
@@ -15,6 +16,7 @@ Deng, Z. (2020). Foreign Exchange Risk, Hedging, and Tax-Motivated Outbound Inco
 ---
 Current Projects
 ---
+![](./img/current_projects.png)
 
 Deng, J., Steele, L., Teng, H. Demand Uncertainty and Tax-Motivated Outbound Income Shifting. Under review.
 

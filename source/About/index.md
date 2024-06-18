@@ -1,7 +1,7 @@
 ---
 title: About Zero
 ---
-
+![](./img/about.png)
 Zero is an Assistant Professor of Accounting at Oregon State University College of Business. He is deeply intrigued by how multinational corporations avoid taxes and is an enthusiastic researcher of income shifting. Zero enjoys teaching financial and tax accounting at Oregon State.
 
 ### Education

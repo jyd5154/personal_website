@@ -3,7 +3,4 @@ extends includes/layout
 block content
     .page(itemscope itemtype='http://schema.org/CreativeWork')
         h2.page-title!= page.title
-        if page.title =='About Zero'
-            .background
-                img.background-img(src=url_for(theme.background) onerror=`this.onerror=null;this.src='` + url_for(theme.loading_bg.flink) + `'` alt="background")
         article!= page.content
