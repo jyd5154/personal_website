@@ -3,7 +3,7 @@ favicon: /img/favicon.png
 avatar: /img/avatar.png
 # if author sets in hexo_config, this string doesn't work
 author: 'Zero'
-author_bio: 'Accounting Teacher and Researcher'
+author_bio: 'Accounting Educator and Researcher'
 
 since: 2020
 
@@ -13,7 +13,7 @@ since: 2020
 menu:
   About: /About
   Publications: /Publications
-  Data: /Data
+  Code & Data: /Data
 
 
 # flink picture will load if avator link calls on error
