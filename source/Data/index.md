@@ -15,11 +15,12 @@ GVKEY CIK FIC SIC Datadate Fyear AvgFTR(Tax Incentive) AvgROS(Average Worldwide 
     - Exclude obs where FIC is not USA.
     - Remove utilities and financial institutions.
     - Constrain fiscal years to 1997 - 2017 (i.e., pre-TCJA).
-    - Include firm-level controls in regressions.
-
+    - Include firm-level controls in regressions (included in output file).
+    Please email me if you spot any errors or have suggestions - much obliged!
+    
 ---
 Data
 ---
 ![](./img/data.png)
 
-Forthcoming
+Forthcoming... WaDaYaNeed?
