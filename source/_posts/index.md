@@ -3,23 +3,38 @@ title: Home
 academia: true
 ---
 
-Welcome to Zero's website! Here, you can learn more about him and his work.
+### Welcome to Zero's website! Here, you can learn more about him and his work.
 
-His local time (Pacific) is:
+<div>
+    <strong>His local time (Pacific) is</strong>:
+    <span id="datetime-text"></span>
+</div>
 
-What is Zero up to?
 
-<div id="custom-text"></div>
+**What is Zero up to?**
+
+<i id="custom-text"></i>
 <script>
 function refreshTime() {
-  var div = document.getElementById("custom-text");
-  const date = new Date();
+  let customTextDiv = document.getElementById("custom-text");
+  let datetimeTextDiv = document.getElementById("datetime-text");
+  const showingDate = new Date().toLocaleString("en-US", {
+        timeZone: "America/Los_Angeles",
+        year: 'numeric',
+        month: 'short',
+        day: '2-digit',
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false,
+  })
   const fixedDate = new Date().toLocaleString("en-US", {
     timeZone: "America/Los_Angeles",
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
   });
+  const datetimeText = showingDate;
   const [specificHour, specificMinute] = fixedDate.split(":").map(Number);
   const currentDaytime = `${specificHour}:${specificMinute}`;
   let displayText = "";
@@ -59,8 +74,9 @@ function refreshTime() {
     displayText = "He is pouring a glass of wine.";
   } else if (isTimeInRange(currentDaytime, "19:01", "20:00")) {
     displayText = "He is resting.";
+  } else if (isTimeInRange(currentDaytime, "20:01", "21:00")) {
+    displayText = "He is enjoying a fine cigar."
   }
-  // 1 hour gap
   else if (isTimeInRange(currentDaytime, "21:01", "22:00")) {
     displayText = "He is enjoying a movie.";
   } else if (isTimeInRange(currentDaytime, "22:01", "07:00")) {
@@ -68,12 +84,15 @@ function refreshTime() {
   } else {
     displayText = "He is in meditation.";
   }
-  console.log(displayText);
-  div.innerHTML = displayText;
+  customTextDiv.innerHTML = displayText;
+  datetimeTextDiv.innerHTML = datetimeText;
 }
 refreshTime()
-setInterval(refreshTime, 1000 * 60); // refresh every min
+setInterval(refreshTime, 1000); // refresh every min
 </script>
 
 <style>
+#datetime-text {
+    white-space: nowrap;
+}
 </style>
