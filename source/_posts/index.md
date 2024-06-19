@@ -5,6 +5,10 @@ academia: true
 
 Welcome to Zero's website! Here, you can learn more about him and his work.
 
+His local time (Pacific) is:
+
+What is Zero up to?
+
 <div id="custom-text"></div>
 <script>
 function refreshTime() {
