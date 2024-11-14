@@ -13,7 +13,8 @@ since: 2020
 menu:
   About: /About
   Publications: /Publications
-  Code & Data: /Data
+  Code: /Code
+  Data: /Data
 
 
 # flink picture will load if avator link calls on error
